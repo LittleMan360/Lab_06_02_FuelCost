@@ -11,7 +11,7 @@ public class FuelCost {
         double costPerGallon = 0;
         double costPer100;
         double maxDistance;
-        String wrongInput = "";
+        String wrongInput;
 
         Scanner in = new Scanner(System.in);
 
