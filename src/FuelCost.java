@@ -67,10 +67,12 @@ public class FuelCost {
             maxDistance = mPG * gallonsInTank;
 
             //output cost per 100 miles
-            System.out.printf("Cost per 100 miles: %.2f\n", costPer100);
+            System.out.printf("Cost per 100 miles: %.2f", costPer100);
+            System.out.println(" dollars");
 
             //output max distance
-            System.out.printf("Your max distance: %.2f\n", maxDistance);
+            System.out.printf("Your max distance: %.2f", maxDistance);
+            System.out.println(" miles");
 
     }
 }
