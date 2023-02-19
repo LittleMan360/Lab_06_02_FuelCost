@@ -20,6 +20,7 @@ public class FuelCost {
         if(in.hasNextDouble())
         {
             gallonsInTank = in.nextDouble();
+            in.nextLine();
         }
         //for any incorrect input
         else
@@ -35,6 +36,7 @@ public class FuelCost {
         if(in.hasNextDouble())
         {
             mPG = in.nextDouble();
+            in.nextLine();
         }
         //for any incorrect input
         else
@@ -49,12 +51,13 @@ public class FuelCost {
         if(in.hasNextDouble())
         {
             costPerGallon = in.nextDouble();
+            in.nextLine();
         }
         //for any incorrect input
         else
         {
             wrongInput = in.nextLine();
-            System.out.println("You entered " + costPerGallon + " MPG");
+            System.out.println("You entered " + wrongInput + " MPG");
             System.out.println("Run the program again and enter the MPG in numbers in numbers");
             System.exit(0);//Terminates the program
         }
